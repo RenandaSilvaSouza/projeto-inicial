@@ -1,78 +1,77 @@
 
-<!-- este é um comentario HTML. -->
-<!DOCTYPE html> <!-- Este é o DTD do HTML 5. -->
-<html lang="pt-br">
- 
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Básica</title>
+    <title>Controle Financeiro e Gatos</title>
+    <style>
+        body {
+            background-color: #00cccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .login-container {
+            background-color: #00cccc;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .login-container h1 {
+            color: white;
+            font-size: 2em;
+            margin: 0;
+        }
+        .login-container h2 {
+            color: white;
+            font-size: 1.2em;
+            margin: 0 0 20px 0;
+        }
+        .login-container img {
+            width: 100%;
+            max-width: 300px;
+            margin-bottom: 20px;
+        }
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .login-container a {
+            display: block;
+            margin: 10px 0;
+            color: white;
+            text-decoration: none;
+        }
+        .login-container button {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+    </style>
 </head>
- 
 <body>
-    <div class="container">
-        <header class="cabecalho">
-            <h1 style="text-align: center"></h1>Minha Página</h1>
-            <nav>
-                <ul>
-                    <li><a href="https://www2.fiap.com.br" target="_blank">FIAP</a></li>
-                    <li><a href="https://www.google.com.br" target="_blank">GOOGLE</a></li>
-                    <li><a href="https://github.com" target="_blank">GITHUB</a></li>
-                </ul>
-            </nav>
-        </header>
- 
-        <section class="conteudo">
-            <div>
-                <h2>help Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi cupiditate, ea vel veniam quos
-                    corporis necessitatibus accusamus est voluptate illum autem totam molestiae facilis ipsa porro
-                    quidem eos maxime fugit vero eius rerum. Quos qui aspernatur optio asperiores quisquam corporis
-                    nostrum quam, maxime id necessitatibus excepturi a deserunt nobis expedita architecto eius atque!
-                    Necessitatibus pariatur quo, dolorem repellendus placeat sapiente nam fugit! Iusto doloremque
-                    laudantium deserunt voluptatem porro molestias reprehenderit facilis asperiores, libero illo sit
-                    soluta ea placeat necessitatibus officiis consectetur non itaque laboriosam modi? Delectus soluta
-                    molestiae et, provident vel sint est officia, itaque saepe facilis ea. Inventore, dolorem?</h2>>
-                <a href="#">Mais...</a>
-                <div>
-                    <h2>CONTACT</h2>h2>
-                    <form>
-                        <fieldset>
-                            <legend>Customer Data</legend>
-                            <div>
-                                <label for="idNm">Nome:</label>
-                                <input type="text" name="txtNm" id="idNm" placeholder="Digite seu nome." />
-                            </div>
-                            <div>
-                                <label for="idEmail">Email:</label>
-                                <input type="email" name="txtEmail" id="idEmail" placeholder="Digite
-                                    seu email." />
-                            </div>
-                            <div>
-                                <button type="button">Send</button>
-                            </div>
-                        </fieldset>
- 
-                    </form>
-                </div>
-        </section>
- 
-        <footer class="rodape">
-            <nav>
-                <!-- Unordered List-->
-                <ul>
-                    <!-- List Item-->
-                    <li><a href="https://www2.fiap.com.br" target="_blank">FIAP</a></li>
-                    <li>
-                        <a href="https://www.google.com.br" target="_blank">GOOGLE</a>
-                    </li>
-                    <li><a href="https://github.com" target="_blank">Github</a></li>
-                    <!-- List Item-->
-                </ul>
-            </nav>
-            <p>Todos os direitos reservados &copy; - Minha Página 2024</p>
-        </footer>
- 
+    <div class="login-container">
+        <h1>CONTROLE</h1>
+        <h2>Financeiro e Gatos</h2>
+        <img src="chart.png" alt="Gráfico">
+        <input type="text" placeholder="Login">
+        <input type="password" placeholder="Senha">
+        <a href="#">Esqueceu a senha?</a>
+        <button>ENTRAR</button>
     </div>
 </body>
- 
 </html>
